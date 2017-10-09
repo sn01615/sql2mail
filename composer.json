@@ -1,0 +1,25 @@
+{
+	"name" : "yanglong/sql2mail",
+	"description" : "MySQL SQL result send to mail.",
+	"type" : "library",
+	"license" : "Apache License 2.0",
+	"authors" : [{
+			"name" : "YangLong",
+			"email" : "168119405@qq.com"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"PhpUtils\\" : "src"
+		}
+	},
+	"repositories" : [{
+			"type" : "git",
+			"url" : "https://github.com/sn01615/sql2mail",
+			"name" : "GitHub"
+		}
+	],
+	"support" : {
+		"issues" : "https://github.com/sn01615/sql2mail/issues"
+	}
+}
