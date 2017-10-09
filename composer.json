@@ -1,5 +1,5 @@
 {
-	"name" : "yanglong/sql2mail",
+	"name" : "sn01615/sql2mail",
 	"description" : "MySQL SQL result send to mail.",
 	"type" : "library",
 	"license" : "Apache License 2.0",
