@@ -8,5 +8,8 @@ namespace PhpUtils;
  */
 class SQL2Mail
 {
+
+    public function __construct()
+    {}
 }
 
