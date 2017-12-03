@@ -1,7 +1,7 @@
 <?php
 namespace PhpUtils;
 
-use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer;
 
 /**
  *
@@ -137,7 +137,7 @@ class SQL2Mail
         $this->mail->AltBody = $this->altbody;
     }
 
-    public function sendTable($table, $title = null, $filename = '¸½¼þ')
+    public function sendTable($table, $title = null, $filename = 'ï¿½ï¿½ï¿½ï¿½')
     {
         $this->updateSet();
         try {
@@ -148,7 +148,7 @@ class SQL2Mail
             // Create new PHPExcel object
             $objPHPExcel = new \PHPExcel();
             
-            // Ê×ÐÐÌî³ä
+            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             $first_row = reset($table);
             $y = 'A';
             $first_arr = [];
@@ -166,7 +166,7 @@ class SQL2Mail
                 $as->setCellValueExplicit("{$key}{$x}", $value);
             }
             
-            // ÄÚÈÝÌî³ä
+            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             foreach ($table as $row) {
                 $x ++;
                 foreach ($first_arr as $key => $value) {
