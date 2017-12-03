@@ -1,7 +1,8 @@
 <?php
 namespace PhpUtils;
 
-use PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\PHPMailer;
 
 /**
  *
